@@ -1,0 +1,90 @@
+* {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-image: url("BluePurpleGradient.jfif");
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: white;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+    width: 50%;
+
+    border-radius: 24px;
+    height: 50%;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flexbox;
+
+    box-shadow: 0 10px 15px black;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 24px;
+    margin-top: 48px;
+}
+
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.textField {
+    width: 90px;
+    height: 90px;
+
+    font-size: 44px;
+    text-align: center;
+    color: rgb(110, 56, 110);
+}
+
+.btn_guess {
+    margin: 20px 0;
+    width: 200px;
+    height: 70px;
+
+    background-color: rgb(110, 56, 110);
+    border-radius: 12px;
+    border: solid 3px black;
+
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.btn_guess:hover {
+    cursor: pointer;
+    background-color: rgb(167, 96, 167)
+}
+
+
+h2 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: none;
+}
+
+h2:last-child {
+    margin-bottom: 48px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
